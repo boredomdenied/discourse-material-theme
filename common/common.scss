@@ -6,6 +6,12 @@
 
 /* End Barbarian overrides */
 
+/* Banner Override */
+
+#banner{max-height: initial;height: auto;}
+
+/* End of Banner Override */
+
 @function brightness($color) {
   @return ((red($color) * .299) + (green($color) * .587) + (blue($color) * .114));
 }
